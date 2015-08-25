@@ -80,7 +80,7 @@ class DotHillCommon(object):
                 self._get_owner_info(self.backend_name)
         else:
             self.owner = self.backend_name
-       self._get_serial_number()
+        self._get_serial_number()
         self.client_logout()
 
     def client_login(self):
